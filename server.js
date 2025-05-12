@@ -20,7 +20,7 @@ const app = express();
 
 // Configuración de CORS
 app.use(cors({
-  origin: "http://localhost:5173", // Permite solo este origen
+  origin: "https://front-reservas.vercel.app/", // Permite solo este origen
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true               // Si necesitas enviar cookies o headers de auth
 }));
