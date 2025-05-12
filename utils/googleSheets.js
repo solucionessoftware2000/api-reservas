@@ -1,6 +1,7 @@
 const { google } = require("googleapis");
 const path = require("path");
 const bcrypt = require("bcrypt");
+const fs = require("fs");
 
 // Ruta donde se guardará el archivo generado
 const credPath = path.join(__dirname, "../config/credenciales.json");
